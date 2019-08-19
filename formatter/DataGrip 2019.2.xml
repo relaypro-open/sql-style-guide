@@ -1,0 +1,562 @@
+<code_scheme name="Default" version="173">
+  <DB2CodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="4" />
+    <option name="KEYWORD_CASE" value="1" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="SET_EL_WRAP" value="0" />
+    <option name="SET_EL_COMMA" value="0" />
+    <option name="SET_ALIGN_EQUAL_SIGN" value="false" />
+    <option name="WITH_EL_COMMA" value="2" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_EL_COMMA" value="2" />
+    <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="0" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="101" />
+    <option name="FROM_EL_COMMA" value="2" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="10" />
+    <option name="WHERE_EL_LINE" value="101" />
+    <option name="WHERE_EL_BOUND" value="2" />
+    <option name="ORDER_EL_LINE" value="101" />
+    <option name="ORDER_EL_WRAP" value="1" />
+    <option name="ORDER_EL_COMMA" value="2" />
+    <option name="TABLE_OPENING" value="1" />
+    <option name="TABLE_CONTENT" value="2" />
+    <option name="TABLE_CLOSING" value="3" />
+    <option name="TABLE_TYPES_ALIGN" value="false" />
+    <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+    <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+    <option name="POST_OPT_WRAP_1" value="true" />
+    <option name="ROUTINE_ARG_CONTENT" value="2" />
+    <option name="ROUTINE_ARG_CLOSING" value="6" />
+    <option name="ROUTINE_ARG_WRAP" value="1" />
+    <option name="ROUTINE_ARG_COMMA" value="2" />
+    <option name="IMP_DECLARE_EL_WRAP" value="3" />
+    <option name="IMP_DECLARE_ALIGN_TYPE" value="false" />
+    <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
+    <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+    <option name="EXPR_BINARY_OP_ALIGN" value="false" />
+    <option name="EXPR_CASE_END" value="1" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+  </DB2CodeStyleSettings>
+  <DerbyCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="4" />
+    <option name="KEYWORD_CASE" value="1" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="SET_EL_WRAP" value="0" />
+    <option name="SET_EL_COMMA" value="0" />
+    <option name="SET_ALIGN_EQUAL_SIGN" value="false" />
+    <option name="WITH_EL_COMMA" value="2" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_EL_COMMA" value="2" />
+    <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="0" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="101" />
+    <option name="FROM_EL_COMMA" value="2" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="10" />
+    <option name="WHERE_EL_LINE" value="101" />
+    <option name="WHERE_EL_BOUND" value="2" />
+    <option name="ORDER_EL_LINE" value="101" />
+    <option name="ORDER_EL_WRAP" value="1" />
+    <option name="ORDER_EL_COMMA" value="2" />
+    <option name="TABLE_OPENING" value="1" />
+    <option name="TABLE_CONTENT" value="2" />
+    <option name="TABLE_CLOSING" value="3" />
+    <option name="TABLE_TYPES_ALIGN" value="false" />
+    <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+    <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+    <option name="POST_OPT_WRAP_1" value="true" />
+    <option name="ROUTINE_ARG_CONTENT" value="2" />
+    <option name="ROUTINE_ARG_CLOSING" value="6" />
+    <option name="ROUTINE_ARG_WRAP" value="1" />
+    <option name="ROUTINE_ARG_COMMA" value="2" />
+    <option name="IMP_DECLARE_EL_WRAP" value="3" />
+    <option name="IMP_DECLARE_ALIGN_TYPE" value="false" />
+    <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
+    <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+    <option name="EXPR_BINARY_OP_ALIGN" value="false" />
+    <option name="EXPR_CASE_END" value="1" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+  </DerbyCodeStyleSettings>
+  <H2CodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="4" />
+    <option name="KEYWORD_CASE" value="1" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="SET_EL_WRAP" value="0" />
+    <option name="SET_EL_COMMA" value="0" />
+    <option name="SET_ALIGN_EQUAL_SIGN" value="false" />
+    <option name="WITH_EL_COMMA" value="2" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_EL_COMMA" value="2" />
+    <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="0" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="101" />
+    <option name="FROM_EL_COMMA" value="2" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="10" />
+    <option name="WHERE_EL_LINE" value="101" />
+    <option name="WHERE_EL_BOUND" value="2" />
+    <option name="ORDER_EL_LINE" value="101" />
+    <option name="ORDER_EL_WRAP" value="1" />
+    <option name="ORDER_EL_COMMA" value="2" />
+    <option name="TABLE_OPENING" value="1" />
+    <option name="TABLE_CONTENT" value="2" />
+    <option name="TABLE_CLOSING" value="3" />
+    <option name="TABLE_TYPES_ALIGN" value="false" />
+    <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+    <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+    <option name="POST_OPT_WRAP_1" value="true" />
+    <option name="ROUTINE_ARG_CONTENT" value="2" />
+    <option name="ROUTINE_ARG_CLOSING" value="6" />
+    <option name="ROUTINE_ARG_WRAP" value="1" />
+    <option name="ROUTINE_ARG_COMMA" value="2" />
+    <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+    <option name="EXPR_BINARY_OP_ALIGN" value="false" />
+    <option name="EXPR_CASE_END" value="1" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+  </H2CodeStyleSettings>
+  <HSQLCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="4" />
+    <option name="KEYWORD_CASE" value="1" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="SET_EL_WRAP" value="0" />
+    <option name="SET_EL_COMMA" value="0" />
+    <option name="SET_ALIGN_EQUAL_SIGN" value="false" />
+    <option name="WITH_EL_COMMA" value="2" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_EL_COMMA" value="2" />
+    <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="0" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="101" />
+    <option name="FROM_EL_COMMA" value="2" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="10" />
+    <option name="WHERE_EL_LINE" value="101" />
+    <option name="WHERE_EL_BOUND" value="2" />
+    <option name="ORDER_EL_LINE" value="101" />
+    <option name="ORDER_EL_WRAP" value="1" />
+    <option name="ORDER_EL_COMMA" value="2" />
+    <option name="TABLE_OPENING" value="1" />
+    <option name="TABLE_CONTENT" value="2" />
+    <option name="TABLE_CLOSING" value="3" />
+    <option name="TABLE_TYPES_ALIGN" value="false" />
+    <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+    <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+    <option name="POST_OPT_WRAP_1" value="true" />
+    <option name="ROUTINE_ARG_CONTENT" value="2" />
+    <option name="ROUTINE_ARG_CLOSING" value="6" />
+    <option name="ROUTINE_ARG_WRAP" value="1" />
+    <option name="ROUTINE_ARG_COMMA" value="2" />
+    <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+    <option name="EXPR_BINARY_OP_ALIGN" value="false" />
+    <option name="EXPR_CASE_END" value="1" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+  </HSQLCodeStyleSettings>
+  <MSSQLCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="4" />
+    <option name="KEYWORD_CASE" value="1" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="SET_EL_WRAP" value="0" />
+    <option name="SET_EL_COMMA" value="0" />
+    <option name="SET_ALIGN_EQUAL_SIGN" value="false" />
+    <option name="WITH_EL_COMMA" value="2" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_EL_COMMA" value="2" />
+    <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="0" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="101" />
+    <option name="FROM_EL_COMMA" value="2" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="10" />
+    <option name="WHERE_EL_LINE" value="101" />
+    <option name="WHERE_EL_BOUND" value="2" />
+    <option name="ORDER_EL_LINE" value="101" />
+    <option name="ORDER_EL_WRAP" value="1" />
+    <option name="ORDER_EL_COMMA" value="2" />
+    <option name="TABLE_OPENING" value="1" />
+    <option name="TABLE_CONTENT" value="2" />
+    <option name="TABLE_CLOSING" value="3" />
+    <option name="TABLE_TYPES_ALIGN" value="false" />
+    <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+    <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+    <option name="POST_OPT_WRAP_1" value="true" />
+    <option name="ROUTINE_ARG_CONTENT" value="2" />
+    <option name="ROUTINE_ARG_CLOSING" value="6" />
+    <option name="ROUTINE_ARG_WRAP" value="1" />
+    <option name="ROUTINE_ARG_COMMA" value="2" />
+    <option name="IMP_DECLARE_EL_WRAP" value="3" />
+    <option name="IMP_DECLARE_ALIGN_TYPE" value="false" />
+    <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
+    <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+    <option name="EXPR_BINARY_OP_ALIGN" value="false" />
+    <option name="EXPR_CASE_END" value="1" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+  </MSSQLCodeStyleSettings>
+  <MySQLCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="4" />
+    <option name="KEYWORD_CASE" value="1" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="SET_EL_WRAP" value="0" />
+    <option name="SET_EL_COMMA" value="0" />
+    <option name="SET_ALIGN_EQUAL_SIGN" value="false" />
+    <option name="WITH_EL_COMMA" value="2" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_EL_COMMA" value="2" />
+    <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="0" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="101" />
+    <option name="FROM_EL_COMMA" value="2" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="10" />
+    <option name="WHERE_EL_LINE" value="101" />
+    <option name="WHERE_EL_BOUND" value="2" />
+    <option name="ORDER_EL_LINE" value="101" />
+    <option name="ORDER_EL_WRAP" value="1" />
+    <option name="ORDER_EL_COMMA" value="2" />
+    <option name="TABLE_OPENING" value="1" />
+    <option name="TABLE_CONTENT" value="2" />
+    <option name="TABLE_CLOSING" value="3" />
+    <option name="TABLE_TYPES_ALIGN" value="false" />
+    <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+    <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+    <option name="POST_OPT_WRAP_1" value="true" />
+    <option name="ROUTINE_ARG_CONTENT" value="2" />
+    <option name="ROUTINE_ARG_CLOSING" value="6" />
+    <option name="ROUTINE_ARG_WRAP" value="1" />
+    <option name="ROUTINE_ARG_COMMA" value="2" />
+    <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+    <option name="EXPR_BINARY_OP_ALIGN" value="false" />
+    <option name="EXPR_CASE_END" value="1" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+  </MySQLCodeStyleSettings>
+  <OracleCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="4" />
+    <option name="KEYWORD_CASE" value="1" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="SET_EL_WRAP" value="0" />
+    <option name="SET_EL_COMMA" value="0" />
+    <option name="SET_ALIGN_EQUAL_SIGN" value="false" />
+    <option name="WITH_EL_COMMA" value="2" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_EL_COMMA" value="2" />
+    <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="0" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="101" />
+    <option name="FROM_EL_COMMA" value="2" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="10" />
+    <option name="WHERE_EL_LINE" value="101" />
+    <option name="WHERE_EL_BOUND" value="2" />
+    <option name="ORDER_EL_LINE" value="101" />
+    <option name="ORDER_EL_WRAP" value="1" />
+    <option name="ORDER_EL_COMMA" value="2" />
+    <option name="TABLE_OPENING" value="1" />
+    <option name="TABLE_CONTENT" value="2" />
+    <option name="TABLE_CLOSING" value="3" />
+    <option name="TABLE_TYPES_ALIGN" value="false" />
+    <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+    <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+    <option name="POST_OPT_WRAP_1" value="true" />
+    <option name="ROUTINE_ARG_CONTENT" value="2" />
+    <option name="ROUTINE_ARG_CLOSING" value="6" />
+    <option name="ROUTINE_ARG_WRAP" value="1" />
+    <option name="ROUTINE_ARG_COMMA" value="2" />
+    <option name="IMP_DECLARE_EL_WRAP" value="3" />
+    <option name="IMP_DECLARE_ALIGN_TYPE" value="false" />
+    <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
+    <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+    <option name="EXPR_BINARY_OP_ALIGN" value="false" />
+    <option name="EXPR_CASE_END" value="1" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+  </OracleCodeStyleSettings>
+  <PostgresCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="4" />
+    <option name="KEYWORD_CASE" value="1" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="QUERY_EL_COMMA" value="2" />
+    <option name="SUBQUERY_OPENING" value="1" />
+    <option name="SUBQUERY_CONTENT" value="2" />
+    <option name="SUBQUERY_CLOSING" value="6" />
+    <option name="SET_EL_WRAP" value="0" />
+    <option name="SET_EL_COMMA" value="0" />
+    <option name="SET_ALIGN_EQUAL_SIGN" value="false" />
+    <option name="WITH_EL_LINE" value="1" />
+    <option name="WITH_EL_COMMA" value="2" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_EL_COMMA" value="2" />
+    <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="0" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="101" />
+    <option name="FROM_EL_COMMA" value="2" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="10" />
+    <option name="WHERE_EL_LINE" value="101" />
+    <option name="WHERE_EL_BOUND" value="2" />
+    <option name="ORDER_EL_LINE" value="101" />
+    <option name="ORDER_EL_WRAP" value="1" />
+    <option name="ORDER_EL_COMMA" value="2" />
+    <option name="TABLE_OPENING" value="1" />
+    <option name="TABLE_CONTENT" value="2" />
+    <option name="TABLE_CLOSING" value="3" />
+    <option name="TABLE_TYPES_ALIGN" value="false" />
+    <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+    <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+    <option name="POST_OPT_WRAP_1" value="true" />
+    <option name="ROUTINE_ARG_CONTENT" value="2" />
+    <option name="ROUTINE_ARG_CLOSING" value="6" />
+    <option name="ROUTINE_ARG_WRAP" value="1" />
+    <option name="ROUTINE_ARG_COMMA" value="2" />
+    <option name="IMP_DECLARE_EL_WRAP" value="3" />
+    <option name="IMP_DECLARE_ALIGN_TYPE" value="false" />
+    <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
+    <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+    <option name="EXPR_BINARY_OP_ALIGN" value="false" />
+    <option name="EXPR_CASE_END" value="1" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+  </PostgresCodeStyleSettings>
+  <SQLiteCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="4" />
+    <option name="KEYWORD_CASE" value="1" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="SET_EL_WRAP" value="0" />
+    <option name="SET_EL_COMMA" value="0" />
+    <option name="SET_ALIGN_EQUAL_SIGN" value="false" />
+    <option name="WITH_EL_COMMA" value="2" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_EL_COMMA" value="2" />
+    <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="0" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="101" />
+    <option name="FROM_EL_COMMA" value="2" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="10" />
+    <option name="WHERE_EL_LINE" value="101" />
+    <option name="WHERE_EL_BOUND" value="2" />
+    <option name="ORDER_EL_LINE" value="101" />
+    <option name="ORDER_EL_WRAP" value="1" />
+    <option name="ORDER_EL_COMMA" value="2" />
+    <option name="TABLE_OPENING" value="1" />
+    <option name="TABLE_CONTENT" value="2" />
+    <option name="TABLE_CLOSING" value="3" />
+    <option name="TABLE_TYPES_ALIGN" value="false" />
+    <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+    <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+    <option name="POST_OPT_WRAP_1" value="true" />
+    <option name="ROUTINE_ARG_CONTENT" value="2" />
+    <option name="ROUTINE_ARG_CLOSING" value="6" />
+    <option name="ROUTINE_ARG_WRAP" value="1" />
+    <option name="ROUTINE_ARG_COMMA" value="2" />
+    <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+    <option name="EXPR_BINARY_OP_ALIGN" value="false" />
+    <option name="EXPR_CASE_END" value="1" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+  </SQLiteCodeStyleSettings>
+  <SqlCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="4" />
+    <option name="KEYWORD_CASE" value="1" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="SET_EL_WRAP" value="0" />
+    <option name="SET_EL_COMMA" value="0" />
+    <option name="SET_ALIGN_EQUAL_SIGN" value="false" />
+    <option name="WITH_EL_COMMA" value="2" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_EL_COMMA" value="2" />
+    <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="0" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="101" />
+    <option name="FROM_EL_COMMA" value="2" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="10" />
+    <option name="WHERE_EL_LINE" value="101" />
+    <option name="WHERE_EL_BOUND" value="2" />
+    <option name="ORDER_EL_LINE" value="101" />
+    <option name="ORDER_EL_WRAP" value="1" />
+    <option name="ORDER_EL_COMMA" value="2" />
+    <option name="TABLE_OPENING" value="1" />
+    <option name="TABLE_CONTENT" value="2" />
+    <option name="TABLE_CLOSING" value="3" />
+    <option name="TABLE_TYPES_ALIGN" value="false" />
+    <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+    <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+    <option name="POST_OPT_WRAP_1" value="true" />
+    <option name="ROUTINE_ARG_CONTENT" value="2" />
+    <option name="ROUTINE_ARG_CLOSING" value="6" />
+    <option name="ROUTINE_ARG_WRAP" value="1" />
+    <option name="ROUTINE_ARG_COMMA" value="2" />
+    <option name="IMP_DECLARE_EL_WRAP" value="3" />
+    <option name="IMP_DECLARE_ALIGN_TYPE" value="false" />
+    <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
+    <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+    <option name="EXPR_BINARY_OP_ALIGN" value="false" />
+    <option name="EXPR_CASE_END" value="1" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+    <option name="SUBQUERY_L_PAR_NL_OUTSIDE" value="true" />
+    <option name="SUBQUERY_L_PAR_NL_INSIDE" value="true" />
+    <option name="SUBQUERY_R_PAR_NL_INSIDE" value="true" />
+    <option name="SUBQUERY_INDENT_INSIDE" value="true" />
+    <option name="ALIGN_AS_IN_SELECT_STATEMENT" value="false" />
+    <option name="ALIGN_TYPE_IN_CREATE_STATEMENT" value="false" />
+    <option name="ALIGN_TYPE_IN_BLOCK_STATEMENT" value="false" />
+    <option name="ALIGN_TYPE_IN_ARGUMENT_DEFINITION" value="false" />
+    <option name="ALIGN_INSIDE_BINARY_EXPRESSION" value="false" />
+    <option name="ALIGN_INSIDE_QUERY_EXPRESSION" value="false" />
+    <option name="ALIGN_EQ_INSIDE_SET_CLAUSE" value="false" />
+    <option name="NEW_LINE_BEFORE_JOIN_CONDITION" value="true" />
+    <option name="NEW_LINE_BEFORE_QUERY_INSIDE_PARENTHESIS" value="true" />
+    <option name="NEW_LINE_BEFORE_QUERY_INSIDE_DML" value="true" />
+    <option name="INDENT_JOIN" value="false" />
+    <option name="INDENT_JOIN_CONDITION" value="false" />
+    <option name="WRAP_INSIDE_SELECT" value="2" />
+    <option name="WRAP_INSIDE_JOIN_EXPRESSION" value="2" />
+    <option name="WRAP_INSIDE_GROUP_BY" value="2" />
+    <option name="WRAP_INSIDE_WHERE" value="2" />
+    <option name="WRAP_INSIDE_ORDER_BY" value="2" />
+    <option name="WRAP_INSIDE_SET" value="2" />
+    <option name="WRAP_INSIDE_ARGUMENT_DEFINITION" value="2" />
+    <option name="WRAP_INSIDE_CALL_EXPRESSION" value="0" />
+    <option name="WRAP_INSIDE_VALUES_EXPRESSION" value="0" />
+    <option name="WRAP_PARENTHESIZED_EXPRESSION_INSIDE_VALUES" value="0" />
+    <option name="NEW_LINE_AFTER_SELECT_2" value="0" />
+  </SqlCodeStyleSettings>
+  <SybaseCodeStyleSettings version="2">
+    <option name="ALIAS_CASE" value="4" />
+    <option name="KEYWORD_CASE" value="1" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="QUERY_EL_LINE" value="101" />
+    <option name="SET_EL_WRAP" value="0" />
+    <option name="SET_EL_COMMA" value="0" />
+    <option name="SET_ALIGN_EQUAL_SIGN" value="false" />
+    <option name="WITH_EL_COMMA" value="2" />
+    <option name="SELECT_EL_LINE" value="101" />
+    <option name="SELECT_EL_COMMA" value="2" />
+    <option name="SELECT_KEEP_N_ITEMS_IN_LINE" value="0" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
+    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="FROM_EL_LINE" value="101" />
+    <option name="FROM_EL_COMMA" value="2" />
+    <option name="FROM_WRAP_ON" value="true" />
+    <option name="FROM_INDENT_JOIN" value="false" />
+    <option name="FROM_ONLY_JOIN_INDENT" value="2" />
+    <option name="FROM_PLACE_ON" value="10" />
+    <option name="WHERE_EL_LINE" value="101" />
+    <option name="WHERE_EL_BOUND" value="2" />
+    <option name="ORDER_EL_LINE" value="101" />
+    <option name="ORDER_EL_WRAP" value="1" />
+    <option name="ORDER_EL_COMMA" value="2" />
+    <option name="TABLE_OPENING" value="1" />
+    <option name="TABLE_CONTENT" value="2" />
+    <option name="TABLE_CLOSING" value="3" />
+    <option name="TABLE_TYPES_ALIGN" value="false" />
+    <option name="TABLE_DEFAULTS_ALIGN" value="false" />
+    <option name="TABLE_NULLABILITIES_ALIGN" value="false" />
+    <option name="POST_OPT_WRAP_1" value="true" />
+    <option name="ROUTINE_ARG_CONTENT" value="2" />
+    <option name="ROUTINE_ARG_CLOSING" value="6" />
+    <option name="ROUTINE_ARG_WRAP" value="1" />
+    <option name="ROUTINE_ARG_COMMA" value="2" />
+    <option name="IMP_DECLARE_EL_WRAP" value="3" />
+    <option name="IMP_DECLARE_ALIGN_TYPE" value="false" />
+    <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
+    <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+    <option name="EXPR_BINARY_OP_ALIGN" value="false" />
+    <option name="EXPR_CASE_END" value="1" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
+  </SybaseCodeStyleSettings>
+  <codeStyleSettings language="DB2">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="0" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Derby">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="0" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="H2">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="0" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="HSQLDB">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="0" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="MySQL">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="0" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Oracle">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="0" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="PostgreSQL">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="0" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="SQL">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="0" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="SQLite">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="0" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Sybase">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="0" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="TSQL">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="0" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>
